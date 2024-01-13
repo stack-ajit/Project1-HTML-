@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form for clubs</title>
+</head>
+<body>
+    <h2>Enter Details</h2>
+
+    <form action="post">
+        <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+            <label for="gender">Gender:</label>
+            
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            
+
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+        <div>
+        <label for="branch">Branch:</label>
+            <select name="branch">
+                <option value="'AIML">AIML</option>
+                <option value="'Biotech">Biotech</option>
+                <option value="'Chemical">Chemical</option>
+                <option value="'CSE">CSE</option>
+                <option value="'Civil">Civil</option>
+                <option value="'EEE">EEE</option>
+                <option value="'ECE">ECE</option>
+                <option value="'Mechanical">Mechanical</option>
+                <option value="'Production">Production</option>
+            </select>
+        </div>
+        <div>
+        <label for="place">Batch:</label>
+        <input type="text" id="place" name="place" required>
+        </div>
+        <div>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+        </div>
+        <div>
+        <button type="submit">Submit</button>
+        </div>
+    </form> 
+</body>
+</html>
